@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>F3 Tutorial</title>
+	</head>
+	<body>
+		<ul>
+		<repeat group="{{ @users }}" value="{{ @item }}">
+		    <li>{{ @item.username }}</li>
+		</repeat>
+		</ul>
+	</body>
+</html>
